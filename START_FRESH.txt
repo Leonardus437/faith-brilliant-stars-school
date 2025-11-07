@@ -1,0 +1,28 @@
+========================================
+START COMPLETELY FRESH
+========================================
+
+Double-click: COMPLETE_RESTART.bat
+
+This will:
+1. Kill all running servers
+2. Reseed database
+3. Fix passwords
+4. Start backend
+5. Start frontend
+6. Open browser
+
+Wait for browser to open automatically.
+
+Then click any role card and Sign In!
+
+========================================
+CREDENTIALS:
+========================================
+
+head@faithschool.rw / Head2024
+teacher@faithschool.rw / Teacher2024
+accounts@faithschool.rw / Accounts2024
+parent@faithschool.rw / Parent2024
+
+========================================

@@ -1,0 +1,64 @@
+========================================
+SCHOOL ACCOUNTANT LOGIN GUIDE
+========================================
+
+STEP 1: OPEN BROWSER
+Go to: http://localhost:5174
+
+STEP 2: LOGIN AS ACCOUNTANT
+Email:    accounts@faithschool.rw
+Password: Accounts2024
+
+STEP 3: WHAT YOU'LL SEE
+
+DASHBOARD:
+✓ Total Students: 60
+✓ Classes: 6
+✓ Attendance Rate: 0%
+✓ Fee Collection: 5.26%
+
+FINANCIAL OVERVIEW:
+✓ Total Invoiced: RWF 2,852,500
+✓ Collected: RWF 150,000
+✓ Pending: RWF 2,702,500
+
+INVOICE STATUS:
+✓ Paid: 1
+✓ Partial: 0
+✓ Pending: 19
+
+RECENT PAYMENTS:
+✓ RCP-2024-00001: RWF 150,000 (MTN MoMo)
+
+STUDENTS BY CLASS:
+✓ P1 A: 9 students
+✓ P2 A: 10 students
+✓ P3 A: 10 students
+✓ P4 A: 10 students
+✓ P5 A: 11 students
+✓ P6 A: 10 students
+
+STEP 4: WHAT YOU CAN DO
+
+FROM DASHBOARD:
+- Click "💳 Manage Fees" to go to fees page
+
+FROM FEES PAGE:
+- View all 20 invoices
+- Create new invoices
+- Record payments (Cash, Bank, MTN MoMo, Airtel Money)
+- Delete invoices
+- See real-time financial summary
+
+========================================
+ACCOUNTANT PERMISSIONS:
+✓ View Dashboard
+✓ Manage Fees & Invoices
+✓ Record Payments
+✓ View Financial Reports
+✓ Delete Invoices
+
+✗ Cannot manage students
+✗ Cannot manage classes
+✗ Cannot take attendance
+========================================

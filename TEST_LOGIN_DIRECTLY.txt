@@ -1,0 +1,22 @@
+========================================
+TEST LOGIN DIRECTLY
+========================================
+
+1. Make sure backend is running (START_BACKEND.bat)
+
+2. Open test_login.html in your browser
+   (Double-click the file)
+
+3. Click "Test Login" button
+
+4. If you see "LOGIN SUCCESS!" - backend works!
+
+5. If you see error - check backend terminal for errors
+
+========================================
+
+This will tell us if the problem is:
+- Backend not working (error in test)
+- Frontend issue (test works but frontend doesn't)
+
+========================================

@@ -1,0 +1,89 @@
+========================================
+FINAL INSTRUCTIONS - FOLLOW EXACTLY
+========================================
+
+THE ISSUE: Backend server is not running!
+
+========================================
+STEP-BY-STEP SOLUTION:
+========================================
+
+STEP 1: START BACKEND
+----------------------
+Double-click: START_BACKEND.bat
+
+Wait until you see:
+"INFO:     Uvicorn running on http://127.0.0.1:8001"
+
+Leave this window OPEN!
+
+
+STEP 2: START FRONTEND
+-----------------------
+Double-click: START_FRONTEND.bat
+
+Wait until you see:
+"Local: http://localhost:5174/"
+
+Leave this window OPEN!
+
+
+STEP 3: OPEN BROWSER
+---------------------
+Go to: http://localhost:5174
+
+
+STEP 4: LOGIN
+-------------
+Click any role card on login page:
+- Head Teacher
+- Teacher  
+- Accountant
+- Parent
+
+Then click "Sign In" button
+
+
+========================================
+CREDENTIALS (if typing manually):
+========================================
+
+head@faithschool.rw / Head2024
+teacher@faithschool.rw / Teacher2024
+accounts@faithschool.rw / Accounts2024
+parent@faithschool.rw / Parent2024
+
+========================================
+IMPORTANT NOTES:
+========================================
+
+1. Keep BOTH windows open (backend + frontend)
+2. Backend MUST run on port 8001
+3. Frontend MUST run on port 5174
+4. Use the quick login buttons (don't type)
+5. Passwords are case-sensitive
+
+========================================
+IF STILL FAILS:
+========================================
+
+1. Check backend window for errors
+2. Make sure you see "Uvicorn running"
+3. Try: http://localhost:8001/docs
+   (Should show FastAPI documentation)
+4. Check frontend window for errors
+
+========================================
+DATABASE IS READY:
+========================================
+
+✓ 4 Users created
+✓ 60 Students
+✓ 6 Classes
+✓ 3 Children for parent
+✓ 20 Invoices
+✓ Attendance records
+
+Everything is seeded and ready!
+
+========================================

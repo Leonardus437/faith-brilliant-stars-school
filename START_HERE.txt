@@ -1,0 +1,118 @@
+========================================
+FAITH BRILLIANT STARS SCHOOL
+START HERE - QUICK GUIDE
+========================================
+
+🚀 TO START THE SYSTEM:
+
+1. Double-click: START.bat
+   (This will seed database, start servers, open browser)
+
+2. OR use: START_SIMPLE.bat
+   (If database already exists)
+
+========================================
+
+🔐 LOGIN CREDENTIALS:
+
+1. HEAD TEACHER (Full Admin)
+   Email: head@faithschool.rw
+   Password: Head2024
+   Features: Everything (Students, Classes, Attendance, Fees)
+
+2. TEACHER
+   Email: teacher@faithschool.rw
+   Password: Teacher2024
+   Features: Attendance Management Only
+
+3. ACCOUNTANT
+   Email: accounts@faithschool.rw
+   Password: Accounts2024
+   Features: Fees & Payments Only
+
+4. PARENT
+   Email: parent@faithschool.rw
+   Password: Parent2024
+   Features: View 3 Children (Attendance & Fees)
+
+========================================
+
+📊 WHAT'S IN THE DATABASE:
+
+✓ 4 Users (all roles working)
+✓ 60 Students across 6 classes
+✓ 3 Children linked to parent
+✓ 20 Invoices (RWF 3,000,000 total)
+✓ 3 Payments (RWF 150,000 total)
+✓ 5 Days of attendance records
+
+========================================
+
+✅ TESTING EACH ROLE:
+
+HEAD TEACHER:
+- Login and see full dashboard
+- Go to Students → Add/Edit/Delete
+- Go to Attendance → Take attendance
+- Go to Fees → Create invoice, Record payment
+
+TEACHER:
+- Login and see basic dashboard
+- Go to Attendance → Select class
+- Mark students present/absent/late
+- Save attendance and view report
+
+ACCOUNTANT:
+- Login and see financial dashboard
+- Go to Fees → View all invoices
+- Create new invoice
+- Record payment with MTN MoMo
+
+PARENT:
+- Login (auto-redirect to Parent Portal)
+- See 3 children cards
+- Click on each child
+- View attendance history
+- View fee balances and payments
+
+========================================
+
+📖 DETAILED GUIDES:
+
+- TEST_ALL_ROLES.txt → Complete testing guide
+- FINAL_SYSTEM_GUIDE.txt → Full system documentation
+- QUICK_START.txt → Troubleshooting tips
+
+========================================
+
+🛑 TO STOP:
+
+Double-click: STOP.bat
+
+========================================
+
+💡 TIPS:
+
+- All passwords end with "2024"
+- Parent has 3 children in P1 A class
+- Each child has RWF 100,000 balance
+- Attendance records go back 5 days
+- Use quick login buttons on login page
+
+========================================
+
+🎨 MODERN UI FEATURES:
+
+✓ Gradient backgrounds
+✓ Smooth animations
+✓ Responsive design
+✓ Role-specific colors
+✓ Icon-based navigation
+✓ Status badges
+✓ Hover effects
+
+========================================
+
+ENJOY YOUR SCHOOL MANAGEMENT SYSTEM! 🎓
+
+========================================

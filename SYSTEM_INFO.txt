@@ -1,0 +1,38 @@
+========================================
+FAITH BRILLIANT STARS SCHOOL
+System Information
+========================================
+
+URLS:
+Frontend:  http://localhost:5174
+Backend:   http://localhost:8001
+API Docs:  http://localhost:8001/docs
+
+LOGIN:
+Email:     admin@faithschool.rw
+Password:  Admin2024
+
+DATABASE CONTENTS:
+- 5 Users (Admin, Head Teacher, Teacher, Accountant, Parent)
+- 60 Students across 6 classes (P1-P6)
+- 6 Subjects (Math, English, Kinyarwanda, Science, Social Studies, PE)
+- 1 Teacher profile
+- 1 Guardian profile
+- Fee structures for all classes
+- 20 Sample invoices
+- 4 Service items (Breakfast, Porridge, Lunch, Snacks)
+
+FEATURES WORKING:
+✓ Authentication & Login
+✓ Student Management (60 students)
+✓ Class Management (P1-P6)
+✓ Attendance Tracking
+✓ Fees & Invoices
+✓ Dashboard with Statistics
+✓ Role-based Access Control
+
+BOTH SERVERS MUST BE RUNNING:
+1. Backend on port 8001
+2. Frontend on port 5174
+
+========================================

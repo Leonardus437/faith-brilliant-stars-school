@@ -1,0 +1,37 @@
+========================================
+✅ BACKEND IS RUNNING!
+========================================
+
+Backend server is successfully running on:
+http://127.0.0.1:8001
+
+NOW DO THIS:
+
+1. Double-click START_FRONTEND.bat
+2. Wait for "Local: http://localhost:5174/"
+3. Browser will open automatically
+4. Click any role card to login!
+
+========================================
+LOGIN CREDENTIALS:
+========================================
+
+HEAD TEACHER (Admin):
+Email: head@faithschool.rw
+Password: Head2024
+
+TEACHER:
+Email: teacher@faithschool.rw
+Password: Teacher2024
+
+ACCOUNTANT:
+Email: accounts@faithschool.rw
+Password: Accounts2024
+
+PARENT:
+Email: parent@faithschool.rw
+Password: Parent2024
+
+========================================
+TIP: Use the quick login buttons!
+========================================

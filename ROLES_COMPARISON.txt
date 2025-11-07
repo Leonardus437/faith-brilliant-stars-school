@@ -1,0 +1,273 @@
+========================================
+ROLE-BASED ACCESS CONTROL GUIDE
+Faith Brilliant Stars School
+========================================
+
+========================================
+1. ADMIN ROLE
+========================================
+Email: admin@faithschool.rw
+Password: Admin2024
+
+FULL SYSTEM ACCESS:
+✓ Manage Students (Create, Edit, Delete)
+✓ Manage Classes (Create, Edit, Delete)
+✓ Take Attendance (All classes)
+✓ Manage Fees & Invoices
+✓ Record Payments
+✓ View Financial Reports
+✓ Manage Users & Permissions
+✓ System Configuration
+✓ View All Analytics
+✓ Generate All Reports
+
+DASHBOARD VIEW:
+- Total students, classes, attendance rate
+- Complete financial overview
+- Invoice status breakdown
+- Recent payments
+- Students by class
+
+NAVIGATION ACCESS:
+- Students
+- Classes
+- Attendance
+- Fees
+- Reports
+- Settings
+- Users
+
+========================================
+2. TEACHER ROLE
+========================================
+Email: teacher@faithschool.rw
+Password: Teacher2024
+
+TEACHING & ATTENDANCE FOCUSED:
+✓ Take Attendance (Assigned classes only)
+✓ View Student Information
+✓ Generate Attendance Reports
+✓ Add Attendance Notes
+✓ View Class Rosters
+✓ Mark: Present, Absent, Late, Excused
+
+✗ Cannot manage fees
+✗ Cannot add/edit students
+✗ Cannot create classes
+✗ Cannot access financial data
+
+DASHBOARD VIEW:
+- Total students, classes
+- Attendance rate
+- Quick action: Take Attendance
+
+NAVIGATION ACCESS:
+- Attendance (Primary)
+- Classes (View only)
+- Students (View only)
+
+ASSIGNED CLASSES:
+- P1 A through P6 A (All 6 classes)
+- 60 students total
+
+========================================
+3. ACCOUNTANT ROLE
+========================================
+Email: accounts@faithschool.rw
+Password: Accounts2024
+
+FINANCIAL MANAGEMENT FOCUSED:
+✓ Create Invoices
+✓ Record Payments (Cash, Bank, MTN MoMo, Airtel Money)
+✓ View Financial Reports
+✓ Track Fee Collection
+✓ Generate Receipts
+✓ Delete Invoices
+✓ View Student Financial Status
+
+✗ Cannot take attendance
+✗ Cannot manage students
+✗ Cannot manage classes
+✗ Cannot access academic data
+
+DASHBOARD VIEW:
+- Total students, classes (info only)
+- Complete financial overview
+- Total invoiced, collected, pending
+- Invoice status (Paid, Partial, Pending)
+- Recent payments
+- Collection rate percentage
+
+NAVIGATION ACCESS:
+- Fees (Primary)
+- Dashboard (Financial view)
+- Students (Financial info only)
+
+PAYMENT METHODS:
+- Cash
+- Bank Transfer
+- MTN Mobile Money
+- Airtel Money
+
+========================================
+4. HEAD TEACHER ROLE
+========================================
+Email: head@faithschool.rw
+Password: Head2024
+
+ACADEMIC OVERSIGHT:
+✓ View All Classes
+✓ Take Attendance (All classes)
+✓ View All Students
+✓ Generate Academic Reports
+✓ Monitor Attendance Trends
+✓ Approve Academic Activities
+
+✗ Cannot manage fees
+✗ Cannot add/edit students (view only)
+✗ Cannot access financial details
+
+DASHBOARD VIEW:
+- Total students, classes
+- Attendance rate
+- Academic overview
+
+NAVIGATION ACCESS:
+- Attendance (All classes)
+- Classes (All)
+- Students (View)
+- Reports (Academic)
+
+========================================
+5. PARENT/GUARDIAN ROLE
+========================================
+Email: parent@faithschool.rw
+Password: Parent2024
+
+CHILD MONITORING:
+✓ View Child's Information
+✓ View Attendance Records
+✓ View Report Cards
+✓ View Fee Status
+✓ Receive Announcements
+✓ View Timetable
+
+✗ Cannot access other students
+✗ Cannot take attendance
+✗ Cannot manage fees
+✗ Cannot access system settings
+
+DASHBOARD VIEW:
+- Child's attendance
+- Fee balance
+- Recent announcements
+- Upcoming events
+
+========================================
+PERMISSION MATRIX
+========================================
+
+Feature              | Admin | Teacher | Accountant | Head Teacher
+---------------------|-------|---------|------------|-------------
+Manage Students      |   ✓   |    ✗    |     ✗      |      ✗
+Manage Classes       |   ✓   |    ✗    |     ✗      |      ✗
+Take Attendance      |   ✓   |    ✓    |     ✗      |      ✓
+View Attendance      |   ✓   |    ✓    |     ✗      |      ✓
+Manage Fees          |   ✓   |    ✗    |     ✓      |      ✗
+Record Payments      |   ✓   |    ✗    |     ✓      |      ✗
+Financial Reports    |   ✓   |    ✗    |     ✓      |      ✗
+Academic Reports     |   ✓   |    ✓    |     ✗      |      ✓
+System Settings      |   ✓   |    ✗    |     ✗      |      ✗
+User Management      |   ✓   |    ✗    |     ✗      |      ✗
+
+========================================
+ATTENDANCE PERMISSIONS
+========================================
+
+ADMIN:
+- All classes
+- All dates
+- Full edit access
+- Delete records
+
+TEACHER:
+- Assigned classes only
+- Current and past dates
+- Edit own records
+- Cannot delete
+
+HEAD TEACHER:
+- All classes
+- All dates
+- View all records
+- Limited edit
+
+ACCOUNTANT:
+- No access
+
+========================================
+FINANCIAL PERMISSIONS
+========================================
+
+ADMIN:
+- Full access
+- Create/edit/delete invoices
+- Record payments
+- Generate reports
+- View all transactions
+
+ACCOUNTANT:
+- Create/edit/delete invoices
+- Record payments
+- Generate financial reports
+- View all transactions
+- Cannot modify system settings
+
+TEACHER:
+- View only (student fee status)
+- No edit access
+
+HEAD TEACHER:
+- View only (summary)
+- No edit access
+
+========================================
+STUDENT DATA PERMISSIONS
+========================================
+
+ADMIN:
+- Full CRUD access
+- All student data
+- Edit profiles
+- Manage enrollment
+
+TEACHER:
+- View assigned class students
+- View contact information
+- View academic records
+- Cannot edit
+
+ACCOUNTANT:
+- View student names
+- View financial data only
+- Cannot edit profiles
+
+HEAD TEACHER:
+- View all students
+- View academic records
+- Cannot edit
+
+========================================
+SECURITY NOTES
+========================================
+
+1. Role-based access enforced at API level
+2. JWT tokens contain role information
+3. Frontend hides unauthorized features
+4. Backend validates permissions on every request
+5. Audit trail tracks all actions by role
+6. Cannot escalate own permissions
+7. Password changes require current password
+8. Session timeout after 24 hours
+
+========================================

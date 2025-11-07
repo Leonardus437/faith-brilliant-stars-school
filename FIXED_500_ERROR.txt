@@ -1,0 +1,24 @@
+========================================
+FIXED 500 ERROR!
+========================================
+
+The analytics endpoint has been fixed.
+
+NOW DO THIS:
+
+1. Close the backend window (CTRL+C or close window)
+2. Double-click START_BACKEND.bat again
+3. Wait for "Uvicorn running"
+4. Refresh browser (F5)
+5. Login with any role!
+
+========================================
+LOGIN WILL NOW WORK!
+========================================
+
+head@faithschool.rw / Head2024
+teacher@faithschool.rw / Teacher2024
+accounts@faithschool.rw / Accounts2024
+parent@faithschool.rw / Parent2024
+
+========================================

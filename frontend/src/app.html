@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Faith Brilliant Stars School - Management System</title>
+		<meta name="description" content="School management system for Faith Brilliant Stars School" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<script>
+			// Prevent flash of unstyled content
+			(function() {
+				try {
+					const theme = localStorage.getItem('theme');
+					const colorTheme = localStorage.getItem('color-theme') || 'blue';
+					document.documentElement.setAttribute('data-theme', colorTheme);
+					if (theme === 'dark') {
+						document.documentElement.classList.add('dark');
+					}
+				} catch (e) {
+					// Ignore errors
+				}
+			})();
+			
+			// Suppress browser extension errors
+			window.addEventListener('error', function(e) {
+				if (e.filename && (e.filename.includes('extension') || e.filename.includes('injected'))) {
+					e.preventDefault();
+					return false;
+				}
+			});
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

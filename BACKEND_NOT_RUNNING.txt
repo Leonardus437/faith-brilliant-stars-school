@@ -1,0 +1,19 @@
+========================================
+⚠️ BACKEND IS NOT RUNNING! ⚠️
+========================================
+
+This is why login doesn't work!
+
+START BACKEND NOW:
+
+Double-click: START_BACKEND.bat
+
+Wait for:
+"INFO: Uvicorn running on http://127.0.0.1:8001"
+
+KEEP THE WINDOW OPEN!
+
+Then try login again at:
+http://localhost:5174
+
+========================================

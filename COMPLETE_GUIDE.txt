@@ -1,0 +1,185 @@
+========================================
+FAITH BRILLIANT STARS SCHOOL
+COMPLETE SYSTEM GUIDE
+========================================
+
+SYSTEM URL: http://localhost:5174
+
+========================================
+LOGIN CREDENTIALS
+========================================
+
+1. ADMIN (School Director)
+   Email:    admin@faithschool.rw
+   Password: Admin2024
+
+2. ACCOUNTANT
+   Email:    accounts@faithschool.rw
+   Password: Accounts2024
+
+3. HEAD TEACHER
+   Email:    head@faithschool.rw
+   Password: Head2024
+
+4. TEACHER
+   Email:    teacher@faithschool.rw
+   Password: Teacher2024
+
+5. PARENT
+   Email:    parent@faithschool.rw
+   Password: Parent2024
+
+========================================
+DASHBOARD FEATURES (ALL ROLES)
+========================================
+
+STATISTICS CARDS:
+✓ Total Students: 60
+✓ Total Classes: 6
+✓ Attendance Rate: 0%
+✓ Fee Collection Rate: 5.26%
+
+FINANCIAL OVERVIEW (Admin & Accountant):
+✓ Total Invoiced: RWF 2,852,500
+✓ Total Collected: RWF 150,000
+✓ Pending Amount: RWF 2,702,500
+✓ Collection Rate: 5.26%
+
+INVOICE STATUS:
+✓ Paid Invoices: 1
+✓ Partial Payments: 0
+✓ Pending Invoices: 19
+
+RECENT PAYMENTS:
+✓ Latest payment: RWF 150,000 via MTN MoMo
+
+STUDENTS BY CLASS:
+✓ P1 A: 9 students
+✓ P2 A: 10 students
+✓ P3 A: 10 students
+✓ P4 A: 10 students
+✓ P5 A: 11 students
+✓ P6 A: 10 students
+
+========================================
+ADMIN CAPABILITIES
+========================================
+
+DASHBOARD:
+✓ View all statistics
+✓ Financial overview
+✓ Quick actions
+
+STUDENTS:
+✓ View all 60 students
+✓ Add new student
+✓ Edit student details
+✓ Delete student
+✓ Auto-generate admission numbers
+
+CLASSES:
+✓ View all 6 classes (P1-P6)
+✓ See class details
+
+FEES & PAYMENTS:
+✓ View all 20 invoices
+✓ Create new invoices
+✓ Record payments
+✓ Delete invoices
+✓ Real-time financial summary
+
+ATTENDANCE:
+✓ Take attendance
+✓ Mark present/absent/late
+
+========================================
+ACCOUNTANT CAPABILITIES
+========================================
+
+DASHBOARD:
+✓ View financial statistics
+✓ Invoice status breakdown
+✓ Recent payments
+✓ Collection rate
+
+FEES & PAYMENTS:
+✓ View all invoices
+✓ Create invoices for students
+✓ Record payments:
+  - Cash
+  - Bank Transfer
+  - MTN Mobile Money
+  - Airtel Money
+✓ Delete invoices
+✓ Track balances
+✓ See payment history
+
+CANNOT ACCESS:
+✗ Student management
+✗ Class management
+✗ Attendance
+
+========================================
+HOW TO USE AS ACCOUNTANT
+========================================
+
+STEP 1: LOGIN
+- Go to http://localhost:5174
+- Email: accounts@faithschool.rw
+- Password: Accounts2024
+
+STEP 2: VIEW DASHBOARD
+- See financial overview
+- Check collection rate
+- View recent payments
+
+STEP 3: MANAGE FEES
+- Click "💳 Manage Fees"
+- See all 20 invoices
+- View summary cards
+
+STEP 4: CREATE INVOICE
+- Click "+ Create Invoice"
+- Select student
+- Choose category (Tuition, Lunch, Transport, etc.)
+- Select term (Term 1, 2, or 3)
+- Enter amount in RWF
+- Set due date
+- Click "Create"
+
+STEP 5: RECORD PAYMENT
+- Find invoice in list
+- Click "Pay" button
+- Enter amount
+- Select payment method
+- Add reference/transaction ID
+- Click "Record Payment"
+
+STEP 6: DELETE INVOICE (if needed)
+- Find invoice
+- Click "Delete"
+- Confirm deletion
+
+========================================
+CURRENT DATABASE
+========================================
+
+STUDENTS: 60 total
+- P1 A: 9 students
+- P2 A: 10 students
+- P3 A: 10 students
+- P4 A: 10 students
+- P5 A: 11 students
+- P6 A: 10 students
+
+INVOICES: 20 total
+- Paid: 1 (RWF 150,000)
+- Pending: 19 (RWF 2,702,500)
+
+CLASSES: 6 (P1-P6)
+
+USERS: 5 (Admin, Head Teacher, Teacher, Accountant, Parent)
+
+========================================
+REFRESH BROWSER TO SEE DASHBOARD!
+========================================

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Login</title>
+</head>
+<body>
+    <h1>Test Login</h1>
+    <button onclick="testLogin()">Test Login</button>
+    <div id="result"></div>
+
+    <script>
+        async function testLogin() {
+            const formData = new FormData();
+            formData.append('username', 'head@faithschool.rw');
+            formData.append('password', 'Head2024');
+
+            try {
+                const response = await fetch('http://localhost:8001/api/auth/login', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                
+                if (data.access_token) {
+                    alert('LOGIN SUCCESS!');
+                } else {
+                    alert('LOGIN FAILED: ' + JSON.stringify(data));
+                }
+            } catch (error) {
+                document.getElementById('result').innerHTML = 'Error: ' + error.message;
+                alert('ERROR: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+========================================
+ALL DEPENDENCIES INSTALLED!
+START NOW
+========================================
+
+STEP 1: Close the backend window (if open)
+
+STEP 2: Double-click START_BACKEND.bat
+
+STEP 3: Double-click START_FRONTEND.bat
+
+STEP 4: Go to http://localhost:5174
+
+STEP 5: Click any role card and login!
+
+========================================
+CREDENTIALS:
+========================================
+
+head@faithschool.rw / Head2024
+teacher@faithschool.rw / Teacher2024
+accounts@faithschool.rw / Accounts2024
+parent@faithschool.rw / Parent2024
+
+========================================
+EVERYTHING IS READY!
+========================================

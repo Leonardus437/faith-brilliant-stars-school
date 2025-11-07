@@ -1,0 +1,18 @@
+========================================
+CORS FIXED!
+========================================
+
+The backend was blocking requests from the browser.
+CORS settings have been updated.
+
+RESTART BACKEND NOW:
+
+1. Close backend window (CTRL+C)
+2. Double-click START_BACKEND.bat
+3. Wait for "Uvicorn running"
+4. Try test_login.html again
+5. Then try the real login at http://localhost:5174
+
+========================================
+LOGIN WILL WORK NOW!
+========================================

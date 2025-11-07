@@ -1,0 +1,114 @@
+========================================
+LOGIN TROUBLESHOOTING GUIDE
+========================================
+
+IF YOU SEE "Login failed. Please check your credentials."
+
+STEP 1: CHECK BACKEND IS RUNNING
+---------------------------------
+Open: http://localhost:8001/docs
+
+If you see FastAPI docs page = Backend is running ✓
+If page doesn't load = Backend is NOT running ✗
+
+TO START BACKEND:
+cd "T:\Faith Brilliant Stars School\backend"
+uvicorn app.main:app --reload --port 8001
+
+
+STEP 2: TEST LOGIN DIRECTLY
+---------------------------------
+Run this in backend folder:
+python test_login.py
+
+Expected output:
+Status: 200
+Response: {"access_token": "...", "user": {...}}
+
+If you see error = Backend issue
+If you see 401 = Password issue
+
+
+STEP 3: VERIFY DATABASE
+---------------------------------
+Run this in backend folder:
+python -c "import sqlite3; conn = sqlite3.connect('faithschool.db'); cursor = conn.cursor(); users = cursor.execute('SELECT email FROM users').fetchall(); print([u[0] for u in users])"
+
+Expected output:
+['head@faithschool.rw', 'teacher@faithschool.rw', 'accounts@faithschool.rw', 'parent@faithschool.rw']
+
+
+STEP 4: RE-SEED DATABASE
+---------------------------------
+If database is corrupted:
+cd "T:\Faith Brilliant Stars School\backend"
+python seed_direct.py
+python fix_passwords.py
+
+
+STEP 5: CHECK FRONTEND
+---------------------------------
+Frontend should be running on: http://localhost:5174
+
+Check browser console (F12) for errors
+
+
+STEP 6: TRY EACH CREDENTIAL
+---------------------------------
+Copy-paste these EXACTLY (case-sensitive):
+
+HEAD TEACHER:
+Email: head@faithschool.rw
+Password: Head2024
+
+TEACHER:
+Email: teacher@faithschool.rw
+Password: Teacher2024
+
+ACCOUNTANT:
+Email: accounts@faithschool.rw
+Password: Accounts2024
+
+PARENT:
+Email: parent@faithschool.rw
+Password: Parent2024
+
+
+STEP 7: USE QUICK LOGIN
+---------------------------------
+On login page, click the role cards:
+- They auto-fill credentials
+- Then click "Sign In" button
+
+
+COMMON ISSUES:
+---------------------------------
+1. Backend not running
+   → Run START.bat or START_SIMPLE.bat
+
+2. Wrong port
+   → Backend must be on 8001
+   → Frontend must be on 5174
+
+3. CORS error
+   → Check backend .env has correct origins
+
+4. Database not seeded
+   → Run: python seed_direct.py
+
+5. Wrong password
+   → Passwords are case-sensitive
+   → Must end with "2024"
+
+========================================
+QUICK FIX:
+========================================
+
+1. Close all terminals
+2. Run STOP.bat
+3. Run START.bat
+4. Wait for browser to open
+5. Click any role card on login page
+6. Click "Sign In"
+
+========================================

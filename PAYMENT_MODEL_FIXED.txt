@@ -1,0 +1,15 @@
+========================================
+PAYMENT MODEL FIXED!
+========================================
+
+The Payment model now matches the database.
+
+RESTART BACKEND:
+
+1. Close backend window (CTRL+C)
+2. Double-click START_BACKEND.bat
+3. Wait for "Uvicorn running"
+4. Refresh browser
+5. Login!
+
+========================================

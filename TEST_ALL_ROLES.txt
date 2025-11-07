@@ -1,0 +1,304 @@
+========================================
+TEST ALL 4 ROLES - COMPLETE GUIDE
+========================================
+
+DATABASE IS NOW READY WITH:
+✓ 4 Users with correct passwords
+✓ 60 Students across 6 classes
+✓ 3 Students linked to parent
+✓ 20 Invoices (3 with partial payments)
+✓ 5 days of attendance records
+
+========================================
+1. TEST HEAD TEACHER (ADMIN)
+========================================
+
+LOGIN:
+Email: head@faithschool.rw
+Password: Head2024
+
+WHAT YOU SHOULD SEE:
+✓ Dashboard with full statistics
+✓ Navigation: Dashboard, Students, Classes, Attendance, Fees
+
+TEST FEATURES:
+1. Dashboard
+   - View 60 students, 6 classes
+   - See financial overview
+   - View invoice status
+   - See recent payments
+
+2. Students Page
+   - See list of all 60 students
+   - Click "Add Student" button
+   - Edit any student
+   - Delete students
+
+3. Classes Page
+   - View all 6 classes (P1 A - P6 A)
+   - See student count per class
+   - Manage class information
+
+4. Attendance Page
+   - Select any class
+   - Take attendance
+   - Mark students present/absent/late/excused
+   - Save attendance
+   - View reports
+
+5. Fees Page
+   - View all 20 invoices
+   - Create new invoices
+   - Record payments
+   - See financial summary
+
+========================================
+2. TEST TEACHER
+========================================
+
+LOGIN:
+Email: teacher@faithschool.rw
+Password: Teacher2024
+
+WHAT YOU SHOULD SEE:
+✓ Dashboard with basic stats
+✓ Navigation: Dashboard, Attendance ONLY
+✓ Quick action: "Take Attendance"
+
+TEST FEATURES:
+1. Dashboard
+   - View student/class counts
+   - See attendance rate
+   - Click "Take Attendance" button
+
+2. Attendance Page (PRIMARY FEATURE)
+   - Select class dropdown (P1 A - P6 A)
+   - See 10 students per class
+   - Mark attendance:
+     * Click "Present" (green)
+     * Click "Absent" (red)
+     * Click "Late" (yellow)
+     * Click "Excused" (blue)
+   - Add notes in text field
+   - Click "Mark All Present" button
+   - Click "Save Attendance"
+   - Click "View Report" to see statistics
+
+3. Verify Restrictions
+   - Cannot access Students page
+   - Cannot access Fees page
+   - Cannot edit student information
+
+========================================
+3. TEST ACCOUNTANT
+========================================
+
+LOGIN:
+Email: accounts@faithschool.rw
+Password: Accounts2024
+
+WHAT YOU SHOULD SEE:
+✓ Dashboard with financial focus
+✓ Navigation: Dashboard, Fees ONLY
+✓ Financial overview cards
+
+TEST FEATURES:
+1. Dashboard
+   - Total Invoiced: RWF 3,000,000
+   - Collected: RWF 150,000
+   - Pending: RWF 2,850,000
+   - Invoice status breakdown
+   - Recent payments list
+
+2. Fees Page (PRIMARY FEATURE)
+   - View all 20 invoices
+   - See invoice details:
+     * Invoice number
+     * Student name
+     * Amount
+     * Status (Paid/Partial/Pending)
+   
+   - Create New Invoice:
+     * Click "Create Invoice" button
+     * Select student
+     * Choose category (Tuition/Lunch/Transport)
+     * Enter amount
+     * Set due date
+     * Save
+   
+   - Record Payment:
+     * Click "Record Payment" on invoice
+     * Enter amount
+     * Select method (Cash/Bank/MTN MoMo/Airtel Money)
+     * Enter reference
+     * Save
+   
+   - Delete Invoice:
+     * Click delete button
+     * Confirm deletion
+
+3. Verify Restrictions
+   - Cannot access Attendance page
+   - Cannot access Students management
+   - Cannot take attendance
+
+========================================
+4. TEST PARENT
+========================================
+
+LOGIN:
+Email: parent@faithschool.rw
+Password: Parent2024
+
+WHAT YOU SHOULD SEE:
+✓ Automatic redirect to Parent Portal
+✓ 3 children cards displayed
+✓ Orange/pink gradient theme
+
+TEST FEATURES:
+1. Children Overview
+   - See 3 children:
+     * Student1 Test (P1 A)
+     * Student2 Test (P1 A)
+     * Student3 Test (P1 A)
+   - Each card shows:
+     * Attendance rate percentage
+     * Fee balance amount
+   - Click on any child to select
+
+2. Overview Tab
+   - Student information:
+     * Full name
+     * Admission number
+     * Class
+   - Quick stats:
+     * Attendance rate with days count
+     * Outstanding balance
+
+3. Attendance Tab
+   - Last 30 days attendance history
+   - Each record shows:
+     * Date
+     * Status icon (✅ ❌ ⏰ 📝)
+     * Status badge (Present/Absent/Late/Excused)
+     * Notes if any
+   - Color-coded status
+
+4. Fees Tab
+   - Invoice list for selected child
+   - Each invoice shows:
+     * Invoice number
+     * Category and term
+     * Total amount
+     * Amount paid
+     * Balance
+     * Status badge
+   - Payment history:
+     * Receipt number
+     * Payment method
+     * Amount
+     * Date
+
+5. Verify Restrictions
+   - Can only see own 3 children
+   - Cannot see other students
+   - Cannot modify any data
+   - Cannot take attendance
+   - Cannot manage fees
+
+========================================
+EXPECTED DATA FOR PARENT
+========================================
+
+CHILD 1 (Student1 Test):
+- Admission: FBS20240001
+- Class: P1 A
+- Invoice: INV-2024-00001
+- Amount: RWF 150,000
+- Paid: RWF 50,000
+- Balance: RWF 100,000
+- Status: Partial
+- Payment: RCP-2024-00001 (MTN MoMo)
+
+CHILD 2 (Student2 Test):
+- Admission: FBS20240002
+- Class: P1 A
+- Invoice: INV-2024-00002
+- Amount: RWF 150,000
+- Paid: RWF 50,000
+- Balance: RWF 100,000
+- Status: Partial
+- Payment: RCP-2024-00002 (MTN MoMo)
+
+CHILD 3 (Student3 Test):
+- Admission: FBS20240003
+- Class: P1 A
+- Invoice: INV-2024-00003
+- Amount: RWF 150,000
+- Paid: RWF 50,000
+- Balance: RWF 100,000
+- Status: Partial
+- Payment: RCP-2024-00003 (MTN MoMo)
+
+========================================
+TESTING CHECKLIST
+========================================
+
+HEAD TEACHER:
+☐ Login successful
+☐ Dashboard shows all stats
+☐ Can view all students
+☐ Can add/edit/delete students
+☐ Can take attendance
+☐ Can view/manage fees
+☐ All navigation items visible
+
+TEACHER:
+☐ Login successful
+☐ Dashboard shows basic stats
+☐ Can access attendance page
+☐ Can select classes
+☐ Can mark attendance
+☐ Can save attendance
+☐ Can view reports
+☐ Cannot access students/fees pages
+
+ACCOUNTANT:
+☐ Login successful
+☐ Dashboard shows financial data
+☐ Can view all invoices
+☐ Can create new invoices
+☐ Can record payments
+☐ Can delete invoices
+☐ Cannot access attendance page
+
+PARENT:
+☐ Login successful
+☐ Redirected to parent portal
+☐ See 3 children cards
+☐ Can select each child
+☐ Can view attendance history
+☐ Can view fee information
+☐ Can see payment history
+☐ Cannot modify any data
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If parent shows "No Children Found":
+- Database was not properly seeded
+- Run: python seed_direct.py
+- Then run: python fix_passwords.py
+
+If login fails:
+- Check password is correct
+- Passwords are case-sensitive
+- Try copying from this guide
+
+If pages are blank:
+- Check backend is running (port 8001)
+- Check frontend is running (port 5174)
+- Check browser console for errors
+
+========================================

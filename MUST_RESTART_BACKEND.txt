@@ -1,0 +1,20 @@
+========================================
+⚠️ MUST RESTART BACKEND NOW! ⚠️
+========================================
+
+CORS has been set to allow ALL origins.
+
+YOU MUST RESTART:
+
+1. Go to backend window
+2. Press CTRL+C to stop it
+3. Double-click START_BACKEND.bat
+4. Wait for "Uvicorn running"
+5. Try test_login.html again
+
+========================================
+
+If backend window is not open:
+Just double-click START_BACKEND.bat
+
+========================================

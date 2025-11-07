@@ -1,0 +1,134 @@
+========================================
+TEACHER LOGIN GUIDE
+========================================
+
+STEP 1: OPEN BROWSER
+Go to: http://localhost:5174
+
+STEP 2: LOGIN AS TEACHER
+Email:    teacher@faithschool.rw
+Password: Teacher2024
+
+STEP 3: WHAT YOU'LL SEE ON DASHBOARD
+
+OVERVIEW STATS:
+✓ Total Students: 60
+✓ Classes: 6
+✓ Attendance Rate: (varies)
+✓ Fee Collection: (view only)
+
+QUICK ACTIONS:
+✓ Take Attendance
+✓ View Classes
+
+========================================
+TEACHER CAPABILITIES
+========================================
+
+1. ATTENDANCE MANAGEMENT (Main Responsibility)
+   ✓ Take daily attendance for assigned classes
+   ✓ Mark students as: Present, Absent, Late, Excused
+   ✓ Add notes for individual students
+   ✓ View attendance history
+   ✓ Generate attendance reports
+   ✓ Quick "Mark All Present" button
+
+2. CLASS MANAGEMENT
+   ✓ View assigned classes
+   ✓ See student lists
+   ✓ View class rosters
+
+3. STUDENT INFORMATION
+   ✓ View student profiles
+   ✓ See admission numbers
+   ✓ Access student contact info
+
+========================================
+HOW TO TAKE ATTENDANCE
+========================================
+
+STEP 1: Click "Take Attendance" from dashboard
+
+STEP 2: Select your class from dropdown
+- You'll see: P1 A, P2 A, P3 A, P4 A, P5 A, P6 A
+- Each shows student count
+
+STEP 3: Select date (defaults to today)
+
+STEP 4: Mark attendance for each student
+- Click "Present" (green) - default
+- Click "Absent" (red) - student not in class
+- Click "Late" (yellow) - student arrived late
+- Click "Excused" (blue) - excused absence
+
+STEP 5: Add notes (optional)
+- Type reason for absence/lateness
+- Example: "Sick", "Doctor appointment", "Family emergency"
+
+STEP 6: Click "Save Attendance"
+- Confirmation message appears
+- Data saved to database
+
+========================================
+ATTENDANCE FEATURES
+========================================
+
+MARK ALL PRESENT:
+- Click "Mark All Present" button
+- Sets all students to present status
+- Saves time for full attendance days
+
+VIEW REPORT:
+- Click "View Report" button
+- See attendance summary for class
+- Shows: Total days, Present, Absent, Late
+- Displays attendance rate percentage
+
+EDIT EXISTING:
+- Select past date
+- Previous attendance loads automatically
+- Make changes and save again
+
+========================================
+TEACHER PERMISSIONS
+========================================
+
+✓ CAN DO:
+- Take attendance for assigned classes
+- View student information
+- Generate attendance reports
+- Add attendance notes
+- View class rosters
+
+✗ CANNOT DO:
+- Manage fees/payments (Accountant only)
+- Add/edit/delete students (Admin only)
+- Create/modify classes (Admin only)
+- Access financial reports (Admin/Accountant only)
+
+========================================
+ASSIGNED CLASSES
+========================================
+
+As John Teacher, you are assigned to:
+- P1 A (9 students)
+- P2 A (10 students)
+- P3 A (10 students)
+- P4 A (10 students)
+- P5 A (11 students)
+- P6 A (10 students)
+
+Total: 60 students across 6 classes
+
+========================================
+TIPS FOR TEACHERS
+========================================
+
+1. Take attendance at the same time daily
+2. Use notes field for important information
+3. Check reports weekly to identify patterns
+4. Mark "Late" for students arriving after start time
+5. Use "Excused" for pre-approved absences
+6. Save attendance before closing browser
+
+========================================

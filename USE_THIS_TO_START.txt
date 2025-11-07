@@ -1,0 +1,13 @@
+========================================
+FIXED! USE THIS TO START
+========================================
+
+Double-click: START_BACKEND.bat
+
+Then double-click: START_FRONTEND.bat
+
+Then go to: http://localhost:5174
+
+Login with quick buttons!
+
+========================================

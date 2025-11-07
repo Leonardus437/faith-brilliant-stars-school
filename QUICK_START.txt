@@ -1,0 +1,67 @@
+========================================
+FAITH BRILLIANT STARS SCHOOL
+QUICK START GUIDE
+========================================
+
+🚀 EASIEST WAY TO START:
+
+Double-click: START_SIMPLE.bat
+
+This will:
+✅ Start Backend Server (port 8001)
+✅ Start Frontend Server (port 5174)
+✅ Open browser automatically
+
+========================================
+
+⚠️ NOTE: Database Already Exists!
+
+The database (faithschool.db) is already created with:
+- 4 User Accounts (Head Teacher, Teacher, Accountant, Parent)
+- 60 Students across 6 classes
+- Attendance records
+- Fee invoices and payments
+
+No need to seed again!
+
+========================================
+
+🔐 LOGIN CREDENTIALS:
+
+1. HEAD TEACHER (Admin)
+   Email: head@faithschool.rw
+   Password: Head2024
+
+2. TEACHER
+   Email: teacher@faithschool.rw
+   Password: Teacher2024
+
+3. ACCOUNTANT
+   Email: accounts@faithschool.rw
+   Password: Accounts2024
+
+4. PARENT
+   Email: parent@faithschool.rw
+   Password: Parent2024
+
+========================================
+
+🛑 TO STOP:
+
+Double-click: STOP.bat
+
+========================================
+
+💡 TROUBLESHOOTING:
+
+If you see SQLAlchemy error:
+- This is a Python 3.13 compatibility issue
+- Database already exists, so you can ignore it
+- Just use START_SIMPLE.bat instead
+
+If ports are busy:
+- Close any running servers
+- Run STOP.bat first
+- Then run START_SIMPLE.bat
+
+========================================

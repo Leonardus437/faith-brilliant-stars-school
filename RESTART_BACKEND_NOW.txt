@@ -1,0 +1,21 @@
+⚠️ IMPORTANT: RESTART BACKEND NOW ⚠️
+
+The backend code has been fixed to resolve the "No classes assigned" issue.
+
+WHAT WAS FIXED:
+- Fixed require_role() to properly compare UserRole enum values with string roles
+- Updated attendance.py to pass string roles instead of enum objects
+
+TO APPLY THE FIX:
+1. Stop the backend server (Ctrl+C or close the terminal)
+2. Restart using: python -m uvicorn app.main:app --reload --port 8001
+   OR
+   Run START.bat or START_ENHANCED.bat
+
+AFTER RESTART:
+- Login as teacher@faithschool.rw / Teacher2024
+- Go to /teacher/attendance
+- You should now see 6 classes in the dropdown (P1 A through P6 A)
+
+The issue was that the role checking was comparing enum objects incorrectly.
+Now it properly extracts the enum value and compares it with the allowed roles.

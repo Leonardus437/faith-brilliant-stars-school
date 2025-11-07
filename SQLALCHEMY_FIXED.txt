@@ -1,0 +1,12 @@
+========================================
+SQLALCHEMY FIXED FOR PYTHON 3.13!
+========================================
+
+NOW START:
+
+1. Double-click START_BACKEND.bat
+2. Double-click START_FRONTEND.bat
+3. Go to http://localhost:5174
+4. Login with any role!
+
+========================================
